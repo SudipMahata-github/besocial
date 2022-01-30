@@ -1,0 +1,109 @@
+.post{
+    height: 170px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 90px;
+}
+.main-post{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    box-shadow: 2px 1px 17px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 1px 17px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 1px 17px 0px rgba(0,0,0,0.75);
+background-color: rgb(228, 235, 240);
+}
+.post-profile{
+    height: 50px;
+    width: 50px;
+    border-radius: 40%;
+    cursor: pointer;
+}
+.post-input{
+    padding: 8px;
+    width: 90%;
+    border-radius: 20px;
+    border: 1px solid grey;
+    outline: none;
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.upper-post{
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+.profile-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 40%;
+}
+.lower-post{
+    height: 50%;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.post-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.post-icon{
+    margin-right: 10px;
+}
+.post-item span{
+    font-size: 20px;
+}
+.createroom-profile{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.c-btn{
+    display: flex;
+    align-items: center;
+    width: 18%;
+    height: 65%;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(194, 206, 194);
+    cursor: pointer;
+    padding: 5px;
+    justify-content: space-around;
+}
+.create-room{
+    display: flex;
+    padding: 10px;
+    height: 80px;
+    background-color: rgb(228, 235, 240);
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 1px 17px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 1px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 1px 17px 0px rgba(0,0,0,0.75);
+    margin-bottom: 90px;
+}
+.c-main-profile{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+.create-room-arrow{
+    cursor: pointer;
+}
+.createroom-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}

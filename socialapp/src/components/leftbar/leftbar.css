@@ -1,0 +1,75 @@
+.leftbar{
+    flex: 1;
+    height: calc(100vh - 50px);
+    background-color:#eee;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 50px;
+}
+.leftbar-main{
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    padding: 20px 20px;
+}
+.left-profile-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 5px;
+    cursor: pointer;
+}
+.leftbar-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftbar-item{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.leftbar-icon{
+  margin-right: 15px;
+}
+.leftbar-item .leftbar-icon{
+    font-size: 35px;
+}
+.leftbar-item span{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leftbar-down{
+    padding: 20px;
+}
+
+.leftbar-square{
+    height: 35px;
+    width: 35px;
+    border-radius: 7px;
+    margin-right: 15px;
+}
+
+.left-profile{
+    display: flex;
+    align-items: center;
+}
+.left-profile span{
+    font-size: 25px;
+    cursor: pointer;
+}
+.leftprofile-square{
+    height: 45px;
+    width: 45px;
+    border-radius: 10px 5px;
+    margin-right: 15px;
+}
+.leftbar-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+    object-fit: cover;
+}
